@@ -14,7 +14,7 @@
 
 ###### Modelling: Choosing the appropriate algorithms and models. This could range from simple linear regression to more complex deep learning models, depending on the problem's complexity and data size.
 
-###### Experimentation: Conducting experiments to optimize the model. This involves hyperparameter tuning, cross-validation, and trying different model architectures to find the best fit.
+###### Experimentation: Conducting experiments to optimise the model. This involves hyperparameter tuning, cross-validation, and trying different model architectures to find the best fit.
 
 ## 3. Deployment:
 ###### Once you have a model that performs well, the next step is to deploy it into production. This involves:
