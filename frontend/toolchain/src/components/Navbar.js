@@ -15,8 +15,8 @@ const Navbar = () => {
   }
 
   return (
-    <div>
-      <h1 size='md' className='logo'>Toolchain</h1>
+    <div className='navbar'>
+      <h1 className='logo'>Toolchain</h1>
         <button
           className='btn-black'
           onClick={handleAuthClick}
