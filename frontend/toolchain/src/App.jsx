@@ -1,15 +1,11 @@
-import { Box, Text } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 import Navbar from './components/Navbar'
 
 const App = () => {
-  return (
-    <>
+  return ( 
+    <Box p={4}>
       <Navbar />
-      <Box p={4}>
-        <Text>Experimental Redux Saga / Chakra UI / Blockchain Application</Text>
-      </Box>
-    </>
-    
+    </Box>
   )
 }
 

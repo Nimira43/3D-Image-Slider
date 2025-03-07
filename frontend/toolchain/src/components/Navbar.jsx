@@ -7,7 +7,7 @@ const Navbar = () => {
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Heading size='md' className='logo'>Toolchain</Heading>
           <Spacer />
-          <Button colorScheme='black' className='btn-black'>Login</Button>
+          <Button className='btn-black'>Login</Button>
         </Flex>
       </Box>      
     </div>
