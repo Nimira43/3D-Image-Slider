@@ -1,4 +1,3 @@
-
 import {login, logout } from '../features/auth/authSlice'
 import { useSelector, useDispatch } from 'react-redux'
 
@@ -17,19 +16,17 @@ const Navbar = () => {
 
   return (
     <div>
-      <div>
-        <h1 size='md' className='logo'>Toolchain</h1>
-          <button
-            className='btn-black'
-            onClick={handleAuthClick}
-          >
-            {isLoggedIn
-              ? 'Logout'
-              : 'Login'
-            }
-          </button>
-        </div>      
-    </div>
+      <h1 size='md' className='logo'>Toolchain</h1>
+        <button
+          className='btn-black'
+          onClick={handleAuthClick}
+        >
+          {isLoggedIn
+            ? 'Logout'
+            : 'Login'
+          }
+        </button>
+    </div>      
   )
 }
 
