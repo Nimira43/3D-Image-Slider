@@ -1,9 +1,13 @@
-import { Box } from '@chakra-ui/react'
+import { Box, Flex, Heading } from '@chakra-ui/react'
 
 const Navbar = () => {
   return (
     <div>
-      <Box bg='#ff4500' px={4}></Box>      
+      <Box bg='#ff4500' px={4}>
+        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+          <Heading size='md' className='logo'>Toolchain</Heading>
+        </Flex>
+      </Box>      
     </div>
   )
 }
