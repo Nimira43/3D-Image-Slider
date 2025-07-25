@@ -37,3 +37,9 @@
   transform-style: preserve-3d;
   transform: perspective(1000px);
 }
+
+.banner .slide .item {
+  position: absolute;
+  inset: 0, 0, 0, 0;
+  transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(550px);
+}
