@@ -20,7 +20,7 @@
   object-fit: cover;
 }
 
-.slider-container {
+.banner {
   position: relative;
   z-index: 1;
 }
